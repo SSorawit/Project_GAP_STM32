@@ -1,0 +1,16 @@
+../Drivers/CMSIS/Include/core_cm4.h:2059:26:ITM_SendChar	4
+../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_bus.h:449:22:LL_AHB2_GRP1_EnableClock	1
+../Core/Src/main.c:79:5:main	8
+../Core/Src/main.c:153:6:SystemClock_Config	3
+../Core/Src/main.c:195:13:MX_USART1_UART_Init	5
+../Core/Src/main.c:243:13:MX_USART2_UART_Init	5
+../Core/Src/main.c:291:13:MX_GPIO_Init	1
+../Core/Src/main.c:328:5:_write	2
+../Core/Src/main.c:335:10:Modbus_CRC16	4
+../Core/Src/main.c:353:6:Build_Modbus_Request	1
+../Core/Src/main.c:369:6:HAL_UART_RxCpltCallback	4
+../Core/Src/main.c:393:6:Decode_TempHumi	1
+../Core/Src/main.c:410:6:Decode_Light	1
+../Core/Src/main.c:422:6:TempHumi	2
+../Core/Src/main.c:438:6:Lihgt	2
+../Core/Src/main.c:459:6:Error_Handler	1
