@@ -1,0 +1,3 @@
+- Board STM32WLE5JC1(Wio) + MB1440C
+- Gateway Raspberry Pi4 + WM1302
+- TTN  Gateway + Application
