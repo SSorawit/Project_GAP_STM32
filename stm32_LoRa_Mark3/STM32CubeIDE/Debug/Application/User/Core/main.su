@@ -1,4 +1,0 @@
-C:/Users/sorawit srisun/STM32Cube/Repository/STM32Cube_FW_WL_V1.3.1/Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_rcc.h:1257:22:LL_RCC_LSE_SetDriveCapability	16	static
-D:/Project GAP/stm-32-project/stm32_LoRa_Mark3/Core/Src/main.c:65:5:main	8	static
-D:/Project GAP/stm-32-project/stm32_LoRa_Mark3/Core/Src/main.c:112:6:SystemClock_Config	112	static
-D:/Project GAP/stm-32-project/stm32_LoRa_Mark3/Core/Src/main.c:164:6:Error_Handler	4	static,ignoring_inline_asm

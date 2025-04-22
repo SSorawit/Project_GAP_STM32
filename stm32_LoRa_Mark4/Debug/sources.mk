@@ -25,6 +25,7 @@ OBJCOPY_BIN :=
 # Every subdirectory with source files must be described here
 SUBDIRS := \
 Core/Src \
+Core/Startup \
 Drivers/STM32WLxx_HAL_Driver/Src \
 LoRaWAN/App \
 LoRaWAN/Target \

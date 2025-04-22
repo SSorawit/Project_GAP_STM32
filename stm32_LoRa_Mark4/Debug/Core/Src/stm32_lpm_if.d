@@ -46,7 +46,7 @@ Core/Src/stm32_lpm_if.o: ../Core/Src/stm32_lpm_if.c \
  ../Core/Inc/usart_if.h ../Utilities/trace/adv_trace/stm32_adv_trace.h \
  ../Core/Inc/utilities_conf.h ../Drivers/CMSIS/Include/cmsis_compiler.h \
  ../Utilities/misc/stm32_mem.h ../Utilities/misc/stm32_tiny_vsnprintf.h \
- ../Core/Inc/utilities_def.h
+ ../Core/Inc/utilities_def.h ../Core/Inc/usart.h ../Core/Inc/dma.h
 ../Core/Inc/platform.h:
 ../Drivers/CMSIS/Device/ST/STM32WLxx/Include/stm32wlxx.h:
 ../Drivers/CMSIS/Device/ST/STM32WLxx/Include/stm32wle5xx.h:
@@ -99,3 +99,5 @@ Core/Src/stm32_lpm_if.o: ../Core/Src/stm32_lpm_if.c \
 ../Utilities/misc/stm32_mem.h:
 ../Utilities/misc/stm32_tiny_vsnprintf.h:
 ../Core/Inc/utilities_def.h:
+../Core/Inc/usart.h:
+../Core/Inc/dma.h:

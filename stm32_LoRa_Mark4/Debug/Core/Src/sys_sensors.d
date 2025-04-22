@@ -42,7 +42,7 @@ Core/Src/sys_sensors.o: ../Core/Src/sys_sensors.c ../Core/Inc/platform.h \
  ../Core/Inc/main.h \
  ../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_gpio.h \
  ../Core/Inc/sys_conf.h ../Core/Inc/sys_sensors.h ../Core/Inc/adc_if.h \
- ../Core/Inc/platform.h
+ ../Core/Inc/adc.h ../Core/Inc/platform.h
 ../Core/Inc/platform.h:
 ../Drivers/CMSIS/Device/ST/STM32WLxx/Include/stm32wlxx.h:
 ../Drivers/CMSIS/Device/ST/STM32WLxx/Include/stm32wle5xx.h:
@@ -89,4 +89,5 @@ Core/Src/sys_sensors.o: ../Core/Src/sys_sensors.c ../Core/Inc/platform.h \
 ../Core/Inc/sys_conf.h:
 ../Core/Inc/sys_sensors.h:
 ../Core/Inc/adc_if.h:
+../Core/Inc/adc.h:
 ../Core/Inc/platform.h:

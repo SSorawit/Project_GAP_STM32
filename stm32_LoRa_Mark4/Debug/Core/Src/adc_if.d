@@ -1,5 +1,6 @@
 Core/Src/adc_if.o: ../Core/Src/adc_if.c ../Core/Inc/adc_if.h \
- ../Core/Inc/main.h ../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal.h \
+ ../Core/Inc/adc.h ../Core/Inc/main.h \
+ ../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal.h \
  ../Core/Inc/stm32wlxx_hal_conf.h \
  ../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_dma.h \
  ../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_def.h \
@@ -47,6 +48,7 @@ Core/Src/adc_if.o: ../Core/Src/adc_if.c ../Core/Inc/adc_if.h \
  ../Utilities/misc/stm32_mem.h ../Utilities/misc/stm32_tiny_vsnprintf.h \
  ../Core/Inc/utilities_def.h
 ../Core/Inc/adc_if.h:
+../Core/Inc/adc.h:
 ../Core/Inc/main.h:
 ../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal.h:
 ../Core/Inc/stm32wlxx_hal_conf.h:
