@@ -13,4 +13,5 @@
 ../Core/Src/stm32wlxx_it.c:252:6:USART1_IRQHandler	1
 ../Core/Src/stm32wlxx_it.c:266:6:USART2_IRQHandler	1
 ../Core/Src/stm32wlxx_it.c:280:6:LPUART1_IRQHandler	1
-../Core/Src/stm32wlxx_it.c:294:6:SUBGHZ_Radio_IRQHandler	1
+../Core/Src/stm32wlxx_it.c:294:6:RTC_Alarm_IRQHandler	1
+../Core/Src/stm32wlxx_it.c:308:6:SUBGHZ_Radio_IRQHandler	1
