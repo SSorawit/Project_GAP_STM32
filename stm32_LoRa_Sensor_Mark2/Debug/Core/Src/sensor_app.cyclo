@@ -1,0 +1,8 @@
+../Core/Src/sensor_app.c:22:6:SensorApp_Init	1
+../Core/Src/sensor_app.c:26:6:SensorApp_StartRead	2
+../Core/Src/sensor_app.c:35:6:SensorApp_IsReady	1
+../Core/Src/sensor_app.c:39:6:SensorApp_GetData	3
+../Core/Src/sensor_app.c:46:6:SensorApp_UART_RxCallback	2
+../Core/Src/sensor_app.c:53:13:Decode_TempHumi	1
+../Core/Src/sensor_app.c:65:13:Build_Modbus_Request	1
+../Core/Src/sensor_app.c:78:17:Modbus_CRC16	4
