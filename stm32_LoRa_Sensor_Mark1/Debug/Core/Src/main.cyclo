@@ -1,0 +1,12 @@
+../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_rcc.h:1257:22:LL_RCC_LSE_SetDriveCapability	1
+../Core/Src/main.c:72:5:main	1
+../Core/Src/main.c:121:6:SystemClock_Config	3
+../Core/Src/main.c:166:10:Modbus_CRC16	4
+../Core/Src/main.c:184:6:Build_Modbus_Request	1
+../Core/Src/main.c:200:6:Decode_TempHumi	1
+../Core/Src/main.c:217:6:Decode_Light	1
+../Core/Src/main.c:229:6:Decode_Soil	1
+../Core/Src/main.c:244:6:TempHumi	2
+../Core/Src/main.c:260:6:Lihgt	2
+../Core/Src/main.c:276:6:SoilTempHumi	2
+../Core/Src/main.c:297:6:Error_Handler	1
