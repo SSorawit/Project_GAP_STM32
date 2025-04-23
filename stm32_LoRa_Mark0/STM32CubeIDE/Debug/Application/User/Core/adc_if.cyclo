@@ -1,5 +1,0 @@
-C:/Users/sorawit srisun/Downloads/WioSTM32WLE5-LoRa-GatewayTTN-main (1)/WioSTM32WLE5-LoRa-GatewayTTN-main/Projects/Applications/LoRaWAN/LoRaWAN_End_Node/Core/Src/adc_if.c:184:17:ADC_ReadChannels	4
-C:/Users/sorawit srisun/Downloads/WioSTM32WLE5-LoRa-GatewayTTN-main (1)/WioSTM32WLE5-LoRa-GatewayTTN-main/Projects/Applications/LoRaWAN/LoRaWAN_End_Node/Core/Src/adc_if.c:80:6:SYS_InitMeasurement	1
-C:/Users/sorawit srisun/Downloads/WioSTM32WLE5-LoRa-GatewayTTN-main (1)/WioSTM32WLE5-LoRa-GatewayTTN-main/Projects/Applications/LoRaWAN/LoRaWAN_End_Node/Core/Src/adc_if.c:91:6:SYS_DeInitMeasurement	1
-C:/Users/sorawit srisun/Downloads/WioSTM32WLE5-LoRa-GatewayTTN-main (1)/WioSTM32WLE5-LoRa-GatewayTTN-main/Projects/Applications/LoRaWAN/LoRaWAN_End_Node/Core/Src/adc_if.c:142:10:SYS_GetBatteryLevel	3
-C:/Users/sorawit srisun/Downloads/WioSTM32WLE5-LoRa-GatewayTTN-main (1)/WioSTM32WLE5-LoRa-GatewayTTN-main/Projects/Applications/LoRaWAN/LoRaWAN_End_Node/Core/Src/adc_if.c:98:9:SYS_GetTemperatureLevel	2

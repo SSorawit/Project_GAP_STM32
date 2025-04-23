@@ -1,4 +1,0 @@
-C:/Users/sorawit srisun/Downloads/WioSTM32WLE5-LoRa-GatewayTTN-main (1)/WioSTM32WLE5-LoRa-GatewayTTN-main/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionBaseUS.c:49:24:FindAvailable125kHzChannels	0	static
-C:/Users/sorawit srisun/Downloads/WioSTM32WLE5-LoRa-GatewayTTN-main (1)/WioSTM32WLE5-LoRa-GatewayTTN-main/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionBaseUS.c:75:17:RegionBaseUSComputeNext125kHzJoinChannel	40	static
-C:/Users/sorawit srisun/Downloads/WioSTM32WLE5-LoRa-GatewayTTN-main (1)/WioSTM32WLE5-LoRa-GatewayTTN-main/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionBaseUS.c:137:6:RegionBaseUSVerifyFrequencyGroup	0	static
-C:/Users/sorawit srisun/Downloads/WioSTM32WLE5-LoRa-GatewayTTN-main (1)/WioSTM32WLE5-LoRa-GatewayTTN-main/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionBaseUS.c:148:10:RegionBaseUSCalcDownlinkFrequency	0	static

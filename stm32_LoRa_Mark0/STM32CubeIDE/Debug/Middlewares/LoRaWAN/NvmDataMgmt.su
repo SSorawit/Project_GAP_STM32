@@ -1,4 +1,0 @@
-C:/Users/sorawit srisun/Downloads/WioSTM32WLE5-LoRa-GatewayTTN-main (1)/WioSTM32WLE5-LoRa-GatewayTTN-main/Middlewares/Third_Party/LoRaWAN/LmHandler/NvmDataMgmt.c:52:6:NvmDataMgmtEvent	0	static
-C:/Users/sorawit srisun/Downloads/WioSTM32WLE5-LoRa-GatewayTTN-main (1)/WioSTM32WLE5-LoRa-GatewayTTN-main/Middlewares/Third_Party/LoRaWAN/LmHandler/NvmDataMgmt.c:59:10:NvmDataMgmtStore	0	static
-C:/Users/sorawit srisun/Downloads/WioSTM32WLE5-LoRa-GatewayTTN-main (1)/WioSTM32WLE5-LoRa-GatewayTTN-main/Middlewares/Third_Party/LoRaWAN/LmHandler/NvmDataMgmt.c:154:10:NvmDataMgmtRestore	0	static
-C:/Users/sorawit srisun/Downloads/WioSTM32WLE5-LoRa-GatewayTTN-main (1)/WioSTM32WLE5-LoRa-GatewayTTN-main/Middlewares/Third_Party/LoRaWAN/LmHandler/NvmDataMgmt.c:221:6:NvmDataMgmtFactoryReset	0	static
