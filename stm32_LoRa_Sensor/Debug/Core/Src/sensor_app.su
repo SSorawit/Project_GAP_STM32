@@ -1,0 +1,8 @@
+../Core/Src/sensor_app.c:17:10:Modbus_CRC16	24	static
+../Core/Src/sensor_app.c:33:6:Build_Modbus_Request	32	static
+../Core/Src/sensor_app.c:45:12:Decode_TempHumi	48	static
+../Core/Src/sensor_app.c:66:10:Decode_Light	24	static
+../Core/Src/sensor_app.c:76:8:Decode_Soil	32	static
+../Core/Src/sensor_app.c:91:12:TempHumi	48	static
+../Core/Src/sensor_app.c:107:10:Light	16	static
+../Core/Src/sensor_app.c:123:8:SoilTempHumi	32	static

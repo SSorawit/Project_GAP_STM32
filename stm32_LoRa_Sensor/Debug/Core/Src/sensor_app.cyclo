@@ -1,0 +1,8 @@
+../Core/Src/sensor_app.c:17:10:Modbus_CRC16	4
+../Core/Src/sensor_app.c:33:6:Build_Modbus_Request	1
+../Core/Src/sensor_app.c:45:12:Decode_TempHumi	1
+../Core/Src/sensor_app.c:66:10:Decode_Light	1
+../Core/Src/sensor_app.c:76:8:Decode_Soil	1
+../Core/Src/sensor_app.c:91:12:TempHumi	2
+../Core/Src/sensor_app.c:107:10:Light	2
+../Core/Src/sensor_app.c:123:8:SoilTempHumi	2
