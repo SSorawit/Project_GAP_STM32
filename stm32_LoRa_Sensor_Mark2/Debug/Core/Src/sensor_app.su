@@ -1,8 +1,0 @@
-../Core/Src/sensor_app.c:22:6:SensorApp_Init	4	static
-../Core/Src/sensor_app.c:26:6:SensorApp_StartRead	8	static
-../Core/Src/sensor_app.c:35:6:SensorApp_IsReady	4	static
-../Core/Src/sensor_app.c:39:6:SensorApp_GetData	16	static
-../Core/Src/sensor_app.c:46:6:SensorApp_UART_RxCallback	8	static
-../Core/Src/sensor_app.c:53:13:Decode_TempHumi	24	static
-../Core/Src/sensor_app.c:65:13:Build_Modbus_Request	24	static
-../Core/Src/sensor_app.c:78:17:Modbus_CRC16	24	static
