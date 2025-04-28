@@ -36,6 +36,11 @@ uint8_t tx_buffer[27] = "Hello, World\n\r";
 uint8_t msg[] = "Hello RS485\n\r";
 uint8_t rx_buffer[16];
 uint8_t modbus_frame[8];
+uint8_t UART_RX_AIR_LENGTH = 13;
+uint8_t UART_RX_SOIL_LENGTH = 9;
+uint8_t UART_RX_LIGHT_LENGTH = 9;
+int UART_TIMEOUT = 1000;
+int HAL_DELAY_TIME = 1000;
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -60,7 +65,7 @@ static void MX_USART1_UART_Init(void);
 void Build_Modbus_Request(uint8_t slave_addr, uint16_t start_reg, uint16_t quantity, uint8_t *frame_out);
 void RS485_Transmit(uint8_t *data, uint16_t size);
 void TempHumi();
-void Lihgt();
+void Light();
 void SoilTempHumi();
 /* USER CODE END PFP */
 
@@ -109,7 +114,7 @@ int main(void)
   while (1)
   {
 	  TempHumi();
-	  Lihgt();
+	  Light();
 	  SoilTempHumi();
     /* USER CODE END WHILE */
 
@@ -185,7 +190,7 @@ static void MX_USART1_UART_Init(void)
   huart1.Init.OneBitSampling = UART_ONE_BIT_SAMPLE_DISABLE;
   huart1.Init.ClockPrescaler = UART_PRESCALER_DIV1;
   huart1.AdvancedInit.AdvFeatureInit = UART_ADVFEATURE_NO_INIT;
-  if (HAL_RS485Ex_Init(&huart1, UART_DE_POLARITY_HIGH, 0, 0) != HAL_OK)
+  if (HAL_UART_Init(&huart1) != HAL_OK)
   {
     Error_Handler();
   }
@@ -387,50 +392,65 @@ void Decode_Soil(uint8_t *rx_buf) {
 
 void TempHumi() {
 	Build_Modbus_Request(0x01, 0x0000, 0x0004, modbus_frame);
-	HAL_UART_Transmit(&huart1, modbus_frame, 8, 1000);
-	HAL_UART_Receive(&huart1, rx_buffer, 16, 1000);
+	HAL_UART_Transmit(&huart2, modbus_frame, 8, UART_TIMEOUT);
+//	HAL_Delay(10);  // wait for sensor to respond
 
-	printf("TEMPHUMI: ");
-	for (int i = 0; i < 16; i++) {
-	    printf("%d ", rx_buffer[i]);
+	if (HAL_UART_Receive(&huart2, rx_buffer, UART_RX_AIR_LENGTH, UART_TIMEOUT) == HAL_OK) {
+		printf("TEMPHUMI: ");
+		for (int i = 0; i < UART_RX_AIR_LENGTH; i++) {
+		    printf("%d ", rx_buffer[i]);
+		}
+	    printf("\r\n");
+
+	    Decode_TempHumi(rx_buffer);
+	} else {
+	    printf("Receive failed\r\n");
 	}
-    printf("\r\n");
 
-    Decode_TempHumi(rx_buffer);
-
-	HAL_Delay(1000);
+	HAL_Delay(HAL_DELAY_TIME);
 }
 
-void Lihgt() {
+void Light() {
 	Build_Modbus_Request(0x02, 0x0000, 0x0002, modbus_frame);
-	HAL_UART_Transmit(&huart1, modbus_frame, 8, 1000);
-	HAL_UART_Receive(&huart1, rx_buffer, 16, 1000);
+	HAL_UART_Transmit(&huart2, modbus_frame, 8, UART_TIMEOUT);
 
-	printf("LiGHT: ");
-	for (int i = 0; i < 16; i++) {
-	    printf("%d ", rx_buffer[i]);
+//	HAL_Delay(10);  // wait for sensor to respond
+
+	if (HAL_UART_Receive(&huart2, rx_buffer, UART_RX_LIGHT_LENGTH, UART_TIMEOUT) == HAL_OK) {
+		printf("LIGHT: ");
+		for (int i = 0; i < UART_RX_LIGHT_LENGTH; i++) {
+		    printf("%d ", rx_buffer[i]);
+		}
+	    printf("\r\n");
+
+	    Decode_Light(rx_buffer);
+	} else {
+	    printf("Receive failed\r\n");
 	}
-    printf("\r\n");
 
-    Decode_Light(rx_buffer);
-
-	HAL_Delay(1000);
+	HAL_Delay(HAL_DELAY_TIME);
 }
 
 void SoilTempHumi() {
 	Build_Modbus_Request(0x03, 0x0000, 0x0002, modbus_frame);
-	HAL_UART_Transmit(&huart1, modbus_frame, 8, 1000);
-	HAL_UART_Receive(&huart1, rx_buffer, 16, 1000);
+	HAL_UART_Transmit(&huart2, modbus_frame, 8, UART_TIMEOUT);
 
-	printf("SOIL: ");
-	for (int i = 0; i < 16; i++) {
-	    printf("%d ", rx_buffer[i]);
+//	HAL_Delay(10);  // wait for sensor to respond
+//	HAL_UART_Receive(&huart2, rx_buffer, UART_RX_SOIL_LENGTH, UART_TIMEOUT);
+
+	if (HAL_UART_Receive(&huart2, rx_buffer, UART_RX_SOIL_LENGTH, UART_TIMEOUT) == HAL_OK) {
+		printf("SOIL: ");
+		for (int i = 0; i < UART_RX_SOIL_LENGTH; i++) {
+		    printf("%d ", rx_buffer[i]);
+		}
+	    printf("\r\n");
+
+	    Decode_Soil(rx_buffer);
+	} else {
+	    printf("Receive failed\r\n");
 	}
-    printf("\r\n");
 
-    Decode_Soil(rx_buffer);
-
-	HAL_Delay(1000);
+	HAL_Delay(HAL_DELAY_TIME);
 }
 /* USER CODE END 4 */
 
