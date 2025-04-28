@@ -75,8 +75,8 @@ all: main-build
 main-build: Seeed-LoRa-E5.elf secondary-outputs
 
 # Tool invocations
-Seeed-LoRa-E5.elf Seeed-LoRa-E5.map: $(OBJS) $(USER_OBJS) D:\Project\ GAP\stm-32-project\stm32_LoRa_Sensor_Mark3\STM32WLE5JCIX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "Seeed-LoRa-E5.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"D:\Project GAP\stm-32-project\stm32_LoRa_Sensor_Mark3\STM32WLE5JCIX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Seeed-LoRa-E5.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Seeed-LoRa-E5.elf Seeed-LoRa-E5.map: $(OBJS) $(USER_OBJS) D:\Github\Project_GAP_STM32\stm32_LoRa_Sensor\STM32WLE5JCIX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "Seeed-LoRa-E5.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"D:\Github\Project_GAP_STM32\stm32_LoRa_Sensor\STM32WLE5JCIX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Seeed-LoRa-E5.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

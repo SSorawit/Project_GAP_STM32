@@ -42,10 +42,10 @@ Core/Src/flash_if.o: ../Core/Src/flash_if.c ../Core/Inc/flash_if.h \
  ../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_system.h \
  ../Core/Inc/main.h \
  ../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_gpio.h \
- D:/Project\ GAP/stm-32-project/stm32_LoRa_Sensor_Mark3/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_radio.h \
- D:/Project\ GAP/stm-32-project/stm32_LoRa_Sensor_Mark3/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_errno.h \
+ D:/Github/Project_GAP_STM32/stm32_LoRa_Sensor/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_radio.h \
+ D:/Github/Project_GAP_STM32/stm32_LoRa_Sensor/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_errno.h \
  ../Core/Inc/stm32wlxx_nucleo_conf.h \
- D:/Project\ GAP/stm-32-project/stm32_LoRa_Sensor_Mark3/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo.h \
+ D:/Github/Project_GAP_STM32/stm32_LoRa_Sensor/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo.h \
  ../Utilities/misc/stm32_mem.h ../Core/Inc/utilities_conf.h \
  ../Drivers/CMSIS/Include/cmsis_compiler.h \
  ../Utilities/misc/stm32_tiny_vsnprintf.h ../Core/Inc/utilities_def.h
@@ -93,10 +93,10 @@ Core/Src/flash_if.o: ../Core/Src/flash_if.c ../Core/Inc/flash_if.h \
 ../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_system.h:
 ../Core/Inc/main.h:
 ../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_gpio.h:
-D:/Project\ GAP/stm-32-project/stm32_LoRa_Sensor_Mark3/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_radio.h:
-D:/Project\ GAP/stm-32-project/stm32_LoRa_Sensor_Mark3/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_errno.h:
+D:/Github/Project_GAP_STM32/stm32_LoRa_Sensor/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_radio.h:
+D:/Github/Project_GAP_STM32/stm32_LoRa_Sensor/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_errno.h:
 ../Core/Inc/stm32wlxx_nucleo_conf.h:
-D:/Project\ GAP/stm-32-project/stm32_LoRa_Sensor_Mark3/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo.h:
+D:/Github/Project_GAP_STM32/stm32_LoRa_Sensor/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo.h:
 ../Utilities/misc/stm32_mem.h:
 ../Core/Inc/utilities_conf.h:
 ../Drivers/CMSIS/Include/cmsis_compiler.h:

@@ -51,10 +51,10 @@ Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_fw.o: \
  ../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_system.h \
  ../Core/Inc/main.h \
  ../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_gpio.h \
- D:/Project\ GAP/stm-32-project/stm32_LoRa_Sensor_Mark3/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_radio.h \
- D:/Project\ GAP/stm-32-project/stm32_LoRa_Sensor_Mark3/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_errno.h \
+ D:/Github/Project_GAP_STM32/stm32_LoRa_Sensor/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_radio.h \
+ D:/Github/Project_GAP_STM32/stm32_LoRa_Sensor/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_errno.h \
  ../Core/Inc/stm32wlxx_nucleo_conf.h \
- D:/Project\ GAP/stm-32-project/stm32_LoRa_Sensor_Mark3/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo.h \
+ D:/Github/Project_GAP_STM32/stm32_LoRa_Sensor/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo.h \
  ../Core/Inc/subghz.h ../LoRaWAN/Target/mw_log_conf.h \
  ../Utilities/trace/adv_trace/stm32_adv_trace.h \
  ../LoRaWAN/Target/radio_board_if.h ../Core/Inc/utilities_def.h \
@@ -115,10 +115,10 @@ Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_fw.o: \
 ../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_system.h:
 ../Core/Inc/main.h:
 ../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_gpio.h:
-D:/Project\ GAP/stm-32-project/stm32_LoRa_Sensor_Mark3/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_radio.h:
-D:/Project\ GAP/stm-32-project/stm32_LoRa_Sensor_Mark3/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_errno.h:
+D:/Github/Project_GAP_STM32/stm32_LoRa_Sensor/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_radio.h:
+D:/Github/Project_GAP_STM32/stm32_LoRa_Sensor/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_errno.h:
 ../Core/Inc/stm32wlxx_nucleo_conf.h:
-D:/Project\ GAP/stm-32-project/stm32_LoRa_Sensor_Mark3/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo.h:
+D:/Github/Project_GAP_STM32/stm32_LoRa_Sensor/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo.h:
 ../Core/Inc/subghz.h:
 ../LoRaWAN/Target/mw_log_conf.h:
 ../Utilities/trace/adv_trace/stm32_adv_trace.h:

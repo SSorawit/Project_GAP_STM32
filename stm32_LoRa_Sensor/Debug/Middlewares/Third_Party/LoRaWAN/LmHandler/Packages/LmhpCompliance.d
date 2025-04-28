@@ -43,10 +43,10 @@ Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhpCompliance.o: \
  ../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_system.h \
  ../Core/Inc/main.h \
  ../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_gpio.h \
- D:/Project\ GAP/stm-32-project/stm32_LoRa_Sensor_Mark3/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_radio.h \
- D:/Project\ GAP/stm-32-project/stm32_LoRa_Sensor_Mark3/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_errno.h \
+ D:/Github/Project_GAP_STM32/stm32_LoRa_Sensor/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_radio.h \
+ D:/Github/Project_GAP_STM32/stm32_LoRa_Sensor/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_errno.h \
  ../Core/Inc/stm32wlxx_nucleo_conf.h \
- D:/Project\ GAP/stm-32-project/stm32_LoRa_Sensor_Mark3/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo.h \
+ D:/Github/Project_GAP_STM32/stm32_LoRa_Sensor/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo.h \
  ../Middlewares/Third_Party/LoRaWAN/LmHandler/NvmDataMgmt.h \
  ../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.h \
  ../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacInterfaces.h \
@@ -117,10 +117,10 @@ Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhpCompliance.o: \
 ../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_system.h:
 ../Core/Inc/main.h:
 ../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_gpio.h:
-D:/Project\ GAP/stm-32-project/stm32_LoRa_Sensor_Mark3/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_radio.h:
-D:/Project\ GAP/stm-32-project/stm32_LoRa_Sensor_Mark3/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_errno.h:
+D:/Github/Project_GAP_STM32/stm32_LoRa_Sensor/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_radio.h:
+D:/Github/Project_GAP_STM32/stm32_LoRa_Sensor/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_errno.h:
 ../Core/Inc/stm32wlxx_nucleo_conf.h:
-D:/Project\ GAP/stm-32-project/stm32_LoRa_Sensor_Mark3/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo.h:
+D:/Github/Project_GAP_STM32/stm32_LoRa_Sensor/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo.h:
 ../Middlewares/Third_Party/LoRaWAN/LmHandler/NvmDataMgmt.h:
 ../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.h:
 ../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacInterfaces.h:

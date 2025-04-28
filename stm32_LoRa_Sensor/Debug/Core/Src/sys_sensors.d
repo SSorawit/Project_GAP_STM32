@@ -41,10 +41,10 @@ Core/Src/sys_sensors.o: ../Core/Src/sys_sensors.c ../Core/Inc/platform.h \
  ../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_system.h \
  ../Core/Inc/main.h \
  ../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_gpio.h \
- D:/Project\ GAP/stm-32-project/stm32_LoRa_Sensor_Mark3/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_radio.h \
- D:/Project\ GAP/stm-32-project/stm32_LoRa_Sensor_Mark3/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_errno.h \
+ D:/Github/Project_GAP_STM32/stm32_LoRa_Sensor/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_radio.h \
+ D:/Github/Project_GAP_STM32/stm32_LoRa_Sensor/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_errno.h \
  ../Core/Inc/stm32wlxx_nucleo_conf.h \
- D:/Project\ GAP/stm-32-project/stm32_LoRa_Sensor_Mark3/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo.h \
+ D:/Github/Project_GAP_STM32/stm32_LoRa_Sensor/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo.h \
  ../Core/Inc/sys_conf.h ../Core/Inc/sys_sensors.h ../Core/Inc/adc_if.h \
  ../Core/Inc/adc.h ../Core/Inc/platform.h
 ../Core/Inc/platform.h:
@@ -90,10 +90,10 @@ Core/Src/sys_sensors.o: ../Core/Src/sys_sensors.c ../Core/Inc/platform.h \
 ../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_system.h:
 ../Core/Inc/main.h:
 ../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_gpio.h:
-D:/Project\ GAP/stm-32-project/stm32_LoRa_Sensor_Mark3/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_radio.h:
-D:/Project\ GAP/stm-32-project/stm32_LoRa_Sensor_Mark3/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_errno.h:
+D:/Github/Project_GAP_STM32/stm32_LoRa_Sensor/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_radio.h:
+D:/Github/Project_GAP_STM32/stm32_LoRa_Sensor/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_errno.h:
 ../Core/Inc/stm32wlxx_nucleo_conf.h:
-D:/Project\ GAP/stm-32-project/stm32_LoRa_Sensor_Mark3/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo.h:
+D:/Github/Project_GAP_STM32/stm32_LoRa_Sensor/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo.h:
 ../Core/Inc/sys_conf.h:
 ../Core/Inc/sys_sensors.h:
 ../Core/Inc/adc_if.h:
