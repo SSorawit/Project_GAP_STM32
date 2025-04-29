@@ -1,0 +1,10 @@
+../Core/Src/sensor_app.c:22:10:Modbus_CRC16	24	static
+../Core/Src/sensor_app.c:38:6:Build_Modbus_Request	32	static
+../Core/Src/sensor_app.c:50:12:Decode_TempHumi	48	static
+../Core/Src/sensor_app.c:71:10:Decode_Light	24	static
+../Core/Src/sensor_app.c:81:8:Decode_Soil	32	static
+../Core/Src/sensor_app.c:96:12:TempHumi	48	static
+../Core/Src/sensor_app.c:126:10:Light	16	static
+../Core/Src/sensor_app.c:156:8:SoilTempHumi	32	static
+../Core/Src/sensor_app.c:217:6:LedBlink	8	static
+../Core/Src/sensor_app.c:224:6:EnterStopModeForMinutes	24	static,ignoring_inline_asm
